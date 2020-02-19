@@ -1,0 +1,41 @@
+body{
+	align-content: center;
+	margin: 0 10% 0 10%;
+	background-image: url("images/background.png");
+}
+.container{
+	border: 10px white solid;
+	background-color: white;
+
+}
+.panel{
+	background-color: #A8F0F0;
+	text-align: right;
+}
+.subtitle{
+	font-weight: normal;
+	font-size: 14px;
+}
+.left-panel{
+	float: left;
+	width: 150px;
+}
+.main{
+	overflow: hidden;
+}
+.article{
+	border: 4px #C2E9E9 solid;	
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+}
+#date{
+	border-bottom: 2px #009097 dashed;	
+}
+.article img{
+	float: right;
+}
+*:hover{
+	background-color: yellow;
+}
