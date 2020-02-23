@@ -19,6 +19,10 @@ body{
 .left-panel{
 	float: left;
 	width: 150px;
+	background-color: #A8F0F0;
+	margin: 10px 10px 0 0;
+	border: 5px solid #008287;
+	padding: 5px;
 }
 .main{
 	overflow: hidden;
@@ -36,6 +40,6 @@ body{
 .article img{
 	float: right;
 }
-*:hover{
+*:active{
 	background-color: yellow;
 }
